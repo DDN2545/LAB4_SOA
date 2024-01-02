@@ -10,4 +10,20 @@
  <servlet-name>Hello-Servlet</servlet-name>
  <url-pattern>/helloworld</url-pattern>
  </servlet-mapping>
+<servlet>
+ <servlet-name>Customer-Servlet</servlet-name>
+ <servlet-class>th.ac.ku.kps.eng.cpe.controller.CustomerServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>Customer-Servlet</servlet-name>
+ <url-pattern>/customers</url-pattern>
+ </servlet-mapping>
+<servlet>
+ <servlet-name>CustomerName-Servlet</servlet-name>
+ <servlet-class>th.ac.ku.kps.eng.cpe.controller.CustomerNameServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>CustomerName-Servlet</servlet-name>
+ <url-pattern>/customers/*</url-pattern>
+ </servlet-mapping>
 </web-app>
